@@ -5,7 +5,7 @@ struct TabDetailsView: View {
     
     var body: some View {
         VStack {
-            Image(tabs[index].image)
+            Image(uiImage: tabs[index].image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 360)
